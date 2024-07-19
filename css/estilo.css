@@ -292,11 +292,10 @@ footer p{
     }
 
     .contenedor img {
-        display: block; /* Asegura que la imagen se comporte como un bloque */
-        margin: 20px auto; /* Centra la imagen horizontalmente y añade margen superior e inferior */
-        width: 100%; /* Ajusta el ancho al 100% del contenedor */
-        max-width: 300px; /* Tamaño máximo de la imagen */
-        height: auto; /* Mantiene la proporción original de la imagen */
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
     main {
