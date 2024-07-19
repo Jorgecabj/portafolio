@@ -305,7 +305,7 @@ footer p{
 
     .card {
         margin: auto;
-        width: 200%;
+        width: auto;
         height: 500px;
         padding: 20px;
     }
