@@ -305,14 +305,16 @@ footer p{
     main {
         grid-template-columns: 1fr;
         padding: 20px;
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        padding-left: 20px; /* Añade padding izquierdo */
+        padding-right: 20px; /* Añade padding derecho */
     }
 
     .card {
         margin: auto;
-        width: 100px;
-        height: auto;
+        width: auto;
+        height: 500px;
         padding: 20px;
+        margin-bottom: 20px;
     }
 
     .sectioncont {
@@ -386,10 +388,8 @@ footer p{
     }
 
     .card {
-        margin: auto;
-        width: auto;
-        height: 500px;
-        padding: 20px;
+        width: 100%;
+        max-width: 350px; /* Mantiene el tamaño máximo original */
     }
 
     .sectioncont {
