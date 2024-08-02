@@ -276,18 +276,18 @@ footer p{
         gap: 20px;
         margin-right: 0;
         margin-top: 20px;
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        margin-left: 0; 
     }
 
     section {
         margin: 20px;
         margin-right: 50px;
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        margin-left: 0; 
     }
 
     .contenedor {
         flex-direction: column;
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        margin-left: 0;
     }
 
     .text {
@@ -299,14 +299,14 @@ footer p{
         width: 100%;
         height: auto;
         max-width: 300px;
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        margin-left: 0; 
     }
 
     main {
         grid-template-columns: 1fr;
         padding: 20px;
-        padding-left: 20px; /* Añade padding izquierdo */
-        padding-right: 20px; /* Añade padding derecho */
+        padding-left: 20px; 
+        padding-right: 20px; 
     }
 
     .card {
@@ -318,21 +318,21 @@ footer p{
     }
 
     .sectioncont {
-        flex-direction: column; /* Cambia la dirección del flex a columna */
-        margin-top: 50px; /* Ajusta el margen superior */
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        flex-direction: column; 
+        margin-top: 50px; 
+        margin-left: 0; 
     }
 
     .textocont {
-        margin-left: 0; /* Elimina el margen izquierdo */
-        width: 80%; /* Ocupa todo el ancho disponible */
-        max-width: none; /* Permite que el ancho se ajuste al contenedor */
+        margin-left: 0; 
+        width: 80%;
+        max-width: none;
     }
 
     .imgcont {
-        width: 100%; /* Ocupa todo el ancho del contenedor */
-        margin-top: 20px; /* Añade margen superior para separación */
-        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        width: 100%; 
+        margin-top: 20px;
+        margin-left: 0; 
     }
 
 }
@@ -389,25 +389,34 @@ footer p{
 
     .card {
         width: 100%;
-        max-width: 350px; /* Mantiene el tamaño máximo original */
+        max-width: 350px; 
     }
 
     .sectioncont {
-        flex-direction: row; /* Vuelve a la dirección de flex original */
-        margin-top: 80px; /* Ajusta el margen superior */
+        flex-direction: row; 
+        margin-top: 80px; 
     }
 
     .textocont {
-        margin-left: 50px; /* Reduce el margen izquierdo */
-        width: 100%; /* Ocupa todo el ancho disponible */
-        max-width: none; /* Permite que el ancho se ajuste al contenedor */
+        margin-left: 50px; 
+        width: 100%; 
+        max-width: none; 
     }
 
     .imgcont {
-        width: 100%; /* Ocupa todo el ancho del contenedor */
-        margin-top: 20px; /* Añade margen superior para separación */
+        width: 100%;
+        margin-top: 20px; 
     }
 
 
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .imgcont {
+        width: 100%;
+        margin-top: 20px; 
+    }
+
+
+}
